@@ -1,0 +1,16 @@
+h1 {
+    font-size: 30px !important;
+}
+.btn-warning:hover {
+    font-size: 25px;
+    background-color: greenyellow;
+}
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {box-shadow: 1px 1px 38px blue;}
+    to {box-shadow: 1px 1px 38px green;}
+}
